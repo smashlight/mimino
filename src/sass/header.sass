@@ -1,0 +1,44 @@
+.header
+
+   &__wrapper
+      display: flex
+      justify-content: space-between
+      margin-top: 68px
+      margin-bottom: 72px
+      @media screen and (max-width: 800px)
+         margin-top: 45px
+         margin-bottom: 45px
+      @media screen and (max-width: 610px)
+         margin-top: 25px
+         margin-bottom: 25px
+   &__logo
+      color: #000000
+      font-family: 'Inconsolata', monospace
+      font-size: 30px
+      font-weight: 400
+      line-height: 24px
+      text-transform: uppercase
+      letter-spacing: 6px
+      @media screen and (max-width: 610px)
+         line-height: 48px
+   &__nav-toggle
+      display: none
+      position: relative
+.nav
+   display: flex
+   @media screen and (max-width: 610px)
+         display: none
+
+   &__item
+      margin-left: 100px
+      @media screen and (max-width: 800px)
+         margin-left: 50px
+      a
+         color: #626262
+         text-decoration: none
+         font-family: "Playfair Display", serif
+         font-size: 14px
+         font-weight: 400
+         line-height: 24px
+         text-transform: uppercase
+         display: inline-block
